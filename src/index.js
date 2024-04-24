@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 
 import './css/styles.css';
 import 'primereact/resources/themes/bootstrap4-light-blue/theme.css';
@@ -12,7 +11,6 @@ import XMLFileUpload from "./file_upload";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
       <XMLFileUpload />
   </React.StrictMode>
 );
